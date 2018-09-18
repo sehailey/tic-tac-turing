@@ -1,12 +1,12 @@
-import React from "react"
-import ReactDOM from "react-dom"
-
-import registerServiceWorker from "./registerServiceWorker"
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(
   <div>
-    <h1>hello world!</h1>
+    <App />
   </div>,
   document.getElementById("root")
-)
-registerServiceWorker()
+);
+registerServiceWorker();
